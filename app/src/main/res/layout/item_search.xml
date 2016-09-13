@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_LinearLayout"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_imgButton"
+            android:layout_width="match_parent"
+            android:layout_height="127.7dp"
+            android:src="@drawable/loading"
+            android:scaleType="fitStart"
+            android:paddingRight="0dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:paddingLeft="10dp"
+            android:background="@color/softWhite"
+            android:focusable="false"
+            android:clickable="false"
+            />
+
+        <!-- 文字布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109.2dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="132.5dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="20dp">
+            <!-- 用户名-->
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/PeterRiver" />
+            <!-- 评论布局-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical">
+                <!-- 评论-->
+                <TextView
+                    android:id="@+id/item_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/item_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+            <!-- 时间布局-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- 时间-->
+                <TextView
+                    android:id="@+id/item_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="连载中"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Uranus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="search_hint">漫画名</string>
+    <string name="btn_search">搜索</string>
+    <string name="chs_name">uranus漫画</string>
+    <string name="nav_introduction">life is like a boat</string>
+    <string name="home">主页</string>
+    <string name="commend">推荐</string>
+    <string name="hot">热门</string>
+
+    <string name="collection">收藏</string>
+    <string name="history">历史</string>
+    <string name="search">搜索</string>
+
+    <string name="loading">加载中&#8230;</string>
+</resources>
